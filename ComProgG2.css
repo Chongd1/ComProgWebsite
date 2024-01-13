@@ -65,7 +65,118 @@ button.hover{
 }
 
 .anime-2{
-    background-image: url(https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2022/07/shangrilafrontier_visual.jpg?resize=696%2C975&ssl=1);
+    background-image: url(https://i0.wp.com/anitrendz.net/news/wp-aacontent/uploads/2022/07/shangrilafrontier_visual.jpg?resize=696%2C975&ssl=1);
     margin-bottom: 25px;
 }
+.clickable {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    color: #fff;
+}
 
+.clickable th{
+    padding: 15px;
+    text-align: center;
+    background-color: #0c0c0c;
+    border: 1px solid #444;
+}
+
+.clickable th a{
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.clickable th:hover a{
+    color: #ff4081;
+}
+
+.login {
+    margin-left: 2000px;
+    margin-top: 8px;
+    background: linear-gradient(45deg, #ff4081, #1a1a1a);
+    color: #fff;
+    padding:6px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+}
+.login:hover{
+    
+    box-shadow: 0 0 20px rgb(128, 1, 1);
+}
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    max-width: 2000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+
+.button2{
+    background-color: #ad0d0dd5;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: auto;
+}
+.button2:hover{
+    background-color: #ee4141;
+}
+
+
+.loginForm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 30px;
+    background:linear-gradient(to bottom, rgb(37, 6, 6), rgb(0, 0, 0));
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    color: white;
+    border-style: none;
+}
+
+.amine {
+    font-size: 3em;
+    color: #ff4081;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(45deg, #ff4081, #1a1a1a);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    transition: text-shadow 0.3s;
+}
+
+.amine:hover {
+    text-shadow: 4px 4px 6px rgba(255, 64, 129, 0.8);
+}
