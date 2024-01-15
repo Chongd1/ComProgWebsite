@@ -5,6 +5,20 @@
 
 }
 
+header{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: black;
+    max-height: 80px;
+    font-size: 30px;
+    color: aliceblue;
+    padding-left: 30px;
+    text-align: left;
+
+}
 
 body{
     display: flex;
