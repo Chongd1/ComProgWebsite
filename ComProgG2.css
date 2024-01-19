@@ -10,8 +10,8 @@ body{
 
 .AniReco{
     background-color: black;
-    color: aliceblue;
-    font-size: 30px;
+    color:aliceblue;
+    font-family: 'Alfa Slab One';font-size: 50px;
     padding-left: 30px;
 }
 
@@ -20,6 +20,8 @@ body{
     color: aliceblue;
     font-size: 30px;
     padding-left: 30px;
+    margin-top: 5px;
+
 }
 
 .container{
@@ -58,10 +60,10 @@ button{
 }
 
 .anime:hover{
-    transform: scale(1.2);
+    transform: scale(1.03);
     transition: all 0.5s ease;
 }
-button.hover{
+button:hover{
     transform: scale(1.03);
     transition: all 0.5s ease;
 }
@@ -80,6 +82,8 @@ button.hover{
 .anime-genre1{
     display: flex;
     overflow-x: scroll;
+    scroll-behavior: smooth;
+    border: 1px solid goldenrod;
 }
 
 .anime-genre1 .anime-image{
