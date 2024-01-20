@@ -1,4 +1,3 @@
-// Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -9,7 +8,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Update current year in the footer
 document.getElementById('current-year').innerText = new Date().getFullYear();
 
 document.addEventListener('DOMContentLoaded', function () {
